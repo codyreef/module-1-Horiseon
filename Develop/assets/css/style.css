@@ -1,13 +1,11 @@
+/* universal element selector  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* this class styles the header section of the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +13,19 @@ body {
     color: #ffffff;
 }
 
+/* this class keeps the 3 nav elements inside the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this series of classes is being used to make the three letters seo in horiseon a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* this */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +33,23 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*  */
 p {
     font-size: 16px;
 }
 
+/*  */
 .hero {
     height: 800px;
     width: 100%;
@@ -195,6 +195,3 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
