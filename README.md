@@ -15,7 +15,7 @@ Refactor both the HTML and the CSS of a clients website to improve accessibility
 
 link to demo of the refactored website:
 
-https://codyreef.github.io/module-1-challenge-shareef/
+https://codyreef.github.io/project-horiseon/
 
 
 
